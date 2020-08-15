@@ -31,8 +31,10 @@ Después de la instalacion, debemos configurar el archivo `package.json`, agrega
 6. Utilizaremos postman para simular las peticiones, pedir estas rutas y obtener la respuesta.
 
 ## Resultados en Postman
+La ruta principal en que está alojado nuestra api es el `localhost:3000/api/lists`
 
-GET:
+GET:<br>
+Al solicitar el GET en la api, Postman nos devuelve el contenido de nuestra "DB", contenido en el archivo `sample.json`
 <br>
 ![peticion get en postman](images-readme/get-postman.PNG)
 <br>
@@ -40,29 +42,40 @@ GET:
 <br>
 <br>
 
-POST:
+POST:<br>
+Aquí queremos ingresar una nueva tarea, mediante Postman, donde a continuación se muestra los datos a ingresar:
 <br>
 ![peticion post en postman](images-readme/post.PNG)
 <br>
 ![datos a insertar](images-readme/first-post-postman.PNG)
 <br>
+Después de la petición, se ve reflejado el nuevo objeto ingresado, con id 3.
+<br>
 ![resultado peticion postman](images-readme/second-post-postman.PNG)
 <br>
 <br>
 
-PUT:
+PUT:<br>
+Para actualizar un objeto, se debe especificar el id, como en este ejemplo es el id 1.
 <br>
 ![peticion put en postman](images-readme/second-put.PNG)
 <br>
+Aquí vemos el valor a actualizar, el estado.
+<br>
 ![dato a modificar](images-readme/third-put.PNG)
+<br>
+Ahora vemos que la actualización fue realizada con éxito.
 <br>
 ![resultado peticion postman](images-readme/fourth-put.PNG)
 <br>
 <br>
 
-DELETE:
+DELETE:<br>
+Para eliminar un objeto, se debe especificar el id, como en este ejemplo es el id 1.
 <br>
 ![peticion delete en postman](images-readme/first-delete-postman.PNG)
+<br>
+Como vemos a continuación, el objeto con id 1 fue eliminado exitosamente.
 <br>
 ![dato a modificar](images-readme/second-delete-postman.PNG)
 <br>
