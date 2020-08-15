@@ -1,5 +1,7 @@
 # To do list con nodejs
-Ejecutar `npm run dev`
+Ejecutar:<br>
+`npm install`<br>
+`npm run dev`<br>
 
 Desarrollo de API Rest para un sistema "TO DO List" con las siguientes funcionalidades:
 
@@ -15,7 +17,7 @@ Los datos de las tareas son:
 
 Hints: Apropiado uso de los frameworks, documentación y calidad del código.
 
-## Pasos
+## Pasos del desarrollo
 
 1. Iniciamos el proyecto con `npm init`.
 
