@@ -46,24 +46,24 @@ POST:
 <br>
 ![datos a insertar](images-readme/first-post-postman.PNG)
 <br>
-![resultado peticion postman](images-readme\second-post-postman.PNG)
+![resultado peticion postman](images-readme/second-post-postman.PNG)
 <br>
 <br>
 
 PUT:
 <br>
-![peticion put en postman](images-readme\second-put.PNG)
+![peticion put en postman](images-readme/second-put.PNG)
 <br>
-![dato a modificar](images-readme\third-put.PNG)
+![dato a modificar](images-readme/third-put.PNG)
 <br>
-![resultado peticion postman](images-readme\fourth-put.PNG)
+![resultado peticion postman](images-readme/fourth-put.PNG)
 <br>
 <br>
 
 DELETE:
 <br>
-![peticion delete en postman](images-readme\first-delete-postman.PNG)
+![peticion delete en postman](images-readme/first-delete-postman.PNG)
 <br>
-![dato a modificar](images-readme\second-delete-postman.PNG)
+![dato a modificar](images-readme/second-delete-postman.PNG)
 <br>
 <br>
