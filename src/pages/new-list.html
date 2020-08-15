@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<div class="container">
+    <hr>
+    <h1>Crear Tarea</h1>
+    <hr>
+
+    <form action = "http://localhost:3000/api/lists" method="POST">
+        <div class="form-group">
+            <label for= "nombre">Nombre</label>
+            <input class="form-control" name="nombre">
+        </div>
+
+        <div class="form-group">
+            <label for="estado">Estado</label>
+            <select id="estado" name="estado">
+                <option value="no resuelto">no resuelto</option>
+                <option value="resuelto">resuelto</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="descripcion">Descripcion</label>
+            <input class="form-control" name="descripcion">
+        </div>
+
+        <button type="submit" class="btn btn-primary">Crear</button>
+    </form>
+</div>
+</html>

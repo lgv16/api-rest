@@ -1,0 +1,14 @@
+[
+    {
+        "id": "1",
+        "nombre": "reunión con equipo de desarrollo",
+        "estado": "no resuelto",
+        "descripcion": "Lorem ipsum. Vestibulum consectetur mauris quam, dignissim dapibus dolor pellentesque convallis. Donec tincidunt tristique lacus, a aliquet nulla sodales eu."
+    },
+    {
+        "id": "2",
+        "nombre": "desarrollar api rest",
+        "estado": "no resuelto",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque id."
+    }
+]
